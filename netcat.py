@@ -94,7 +94,7 @@ class NetCat:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='BHP Net Tool',
+        description='Net Tool',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent('''Exemplo:
         netcat.py -t 192.168.1.108 -p 5555 -l -c
